@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lzyG1l7Q+0E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zh.kasymov\\source\\repos\\TestGeometry\\TestGeometry\\TestGeometry.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zh.kasymov\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
