@@ -1,17 +1,20 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using System.Windows.Shapes;
 
 namespace TestGeometry.Model
 {
     /// <summary>
     /// Represents a 2D circle
     /// </summary>
-    public partial class Circle : ObservableObject, IGeometry2DElement
+    public partial class Circle : ObservableObject, IGeometry2D
     {
         [ObservableProperty]
         private double _r;
         [ObservableProperty]
-        private string name;
+        private string _name;
+        [ObservableProperty]
+        private Shape _geomShape;
         /// Creates a new instance of circle
         /// </summary>
         /// <param name="r">radius of a circle</param>
@@ -25,9 +28,16 @@ namespace TestGeometry.Model
             else
             {
                 R = r;
-                Name = "Круг";
             }
+            Name = "Круг";
+            GeomShape = new Ellipse() { Height = r, Width = r };
         }
+
+        public void Create(params object[] inputs)
+        {
+            throw new NotImplementedException();
+        }
+
         [RelayCommand]
         public double GetArea()
         {

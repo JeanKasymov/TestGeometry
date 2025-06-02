@@ -2,7 +2,7 @@
 
 namespace TestGeometry.Model
 {
-    public partial class Square : ObservableObject, IGeometry2DElement
+    public partial class Square : ObservableObject, IGeometry2D
     {
         [ObservableProperty]
         private double _a;
