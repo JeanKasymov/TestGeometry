@@ -9,8 +9,8 @@ namespace TestGeometry.VM
 {
     public partial class MainWindowVM : ObservableObject
     {
-        [ObservableProperty]
-        private ObservableCollection<IGeometry2D> _geometryElements;
+        //[ObservableProperty]
+        //private ObservableCollection<IGeometry2D> _geometryElements;
 
         [ObservableProperty]
         private Shape _geomShape;
@@ -30,10 +30,9 @@ namespace TestGeometry.VM
         }
 
         [RelayCommand]
-        public void CreateShape()
+        public void CreateShape(IGeometry2D geometry2Dtype)
         {
-            GeomShape = new ();
+            GeomShape = geometry2Dtype.Create();
         }
-
     }
 }

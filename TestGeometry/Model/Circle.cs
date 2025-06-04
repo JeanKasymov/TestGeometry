@@ -30,23 +30,16 @@ namespace TestGeometry.Model
                 R = r;
             }
             Name = "Круг";
-            GeomShape = new Ellipse() { Height = r, Width = r };
         }
 
         public void Create(params object[] inputs)
         {
-            throw new NotImplementedException();
+            GeomShape = new Ellipse() { Height =  (double)inputs[0], Width = (double)inputs[0] };
         }
 
         [RelayCommand]
-        public double GetArea()
-        {
-            return Math.PI * Math.Sqrt(R);
-        }
+        public double GetArea() => Math.PI * Math.Sqrt(R);
         [RelayCommand]
-        public double GetPerimeter()
-        {
-            return 2 * Math.PI * R;
-        }
+        public double GetPerimeter() => 2 * Math.PI * R;
     }
 }

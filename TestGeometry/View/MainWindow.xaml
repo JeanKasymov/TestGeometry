@@ -21,6 +21,8 @@
         </StackPanel>
         <StackPanel
             DockPanel.Dock="Right">
+            <Path
+                Data="{Binding }"
             <Rectangle 
                 Fill="LightBlue" 
                 Width="200" 

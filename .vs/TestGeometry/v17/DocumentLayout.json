@@ -11,20 +11,20 @@
       "RelativeMoniker": "D:0:0:{4B419333-15EA-4C54-AF77-46E64D14D00B}|TestGeometry\\TestGeometry.csproj|solutionrelative:testgeometry\\model\\igeometry2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B419333-15EA-4C54-AF77-46E64D14D00B}|TestGeometry\\TestGeometry.csproj|c:\\users\\zh.kasymov\\source\\repos\\testgeometry\\testgeometry\\model\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B419333-15EA-4C54-AF77-46E64D14D00B}|TestGeometry\\TestGeometry.csproj|solutionrelative:testgeometry\\model\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B419333-15EA-4C54-AF77-46E64D14D00B}|TestGeometry\\TestGeometry.csproj|c:\\users\\zh.kasymov\\source\\repos\\testgeometry\\testgeometry\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4B419333-15EA-4C54-AF77-46E64D14D00B}|TestGeometry\\TestGeometry.csproj|solutionrelative:testgeometry\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B419333-15EA-4C54-AF77-46E64D14D00B}|TestGeometry\\TestGeometry.csproj|c:\\users\\zh.kasymov\\source\\repos\\testgeometry\\testgeometry\\model\\righttriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B419333-15EA-4C54-AF77-46E64D14D00B}|TestGeometry\\TestGeometry.csproj|solutionrelative:testgeometry\\model\\righttriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B419333-15EA-4C54-AF77-46E64D14D00B}|TestGeometry\\TestGeometry.csproj|c:\\users\\zh.kasymov\\source\\repos\\testgeometry\\testgeometry\\model\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B419333-15EA-4C54-AF77-46E64D14D00B}|TestGeometry\\TestGeometry.csproj|solutionrelative:testgeometry\\model\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B419333-15EA-4C54-AF77-46E64D14D00B}|TestGeometry\\TestGeometry.csproj|c:\\users\\zh.kasymov\\source\\repos\\testgeometry\\testgeometry\\model\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B419333-15EA-4C54-AF77-46E64D14D00B}|TestGeometry\\TestGeometry.csproj|solutionrelative:testgeometry\\model\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B419333-15EA-4C54-AF77-46E64D14D00B}|TestGeometry\\TestGeometry.csproj|c:\\users\\zh.kasymov\\source\\repos\\testgeometry\\testgeometry\\model\\righttriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B419333-15EA-4C54-AF77-46E64D14D00B}|TestGeometry\\TestGeometry.csproj|solutionrelative:testgeometry\\model\\righttriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B419333-15EA-4C54-AF77-46E64D14D00B}|TestGeometry\\TestGeometry.csproj|c:\\users\\zh.kasymov\\source\\repos\\testgeometry\\testgeometry\\model\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\zh.kasymov\\source\\repos\\TestGeometry\\TestGeometry\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TestGeometry\\View\\MainWindow.xaml",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Rectangle.cs",
               "DocumentMoniker": "C:\\Users\\zh.kasymov\\source\\repos\\TestGeometry\\TestGeometry\\Model\\Rectangle.cs",
               "RelativeDocumentMoniker": "TestGeometry\\Model\\Rectangle.cs",
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RightTriangle.cs",
               "DocumentMoniker": "C:\\Users\\zh.kasymov\\source\\repos\\TestGeometry\\TestGeometry\\Model\\RightTriangle.cs",
               "RelativeDocumentMoniker": "TestGeometry\\Model\\RightTriangle.cs",
@@ -75,8 +75,7 @@
               "RelativeToolTip": "TestGeometry\\Model\\RightTriangle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T07:54:57.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T07:54:57.682Z"
             },
             {
               "$type": "Document",
@@ -92,13 +91,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Circle.cs",
               "DocumentMoniker": "C:\\Users\\zh.kasymov\\source\\repos\\TestGeometry\\TestGeometry\\Model\\Circle.cs",
               "RelativeDocumentMoniker": "TestGeometry\\Model\\Circle.cs",
               "ToolTip": "C:\\Users\\zh.kasymov\\source\\repos\\TestGeometry\\TestGeometry\\Model\\Circle.cs",
               "RelativeToolTip": "TestGeometry\\Model\\Circle.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAMwCUAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAMwCQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T07:54:30.683Z",
               "EditorCaption": ""
@@ -111,7 +110,7 @@
               "RelativeDocumentMoniker": "TestGeometry\\Model\\IGeometry2D.cs",
               "ToolTip": "C:\\Users\\zh.kasymov\\source\\repos\\TestGeometry\\TestGeometry\\Model\\IGeometry2D.cs",
               "RelativeToolTip": "TestGeometry\\Model\\IGeometry2D.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T07:41:19.8Z",
               "EditorCaption": ""
@@ -124,7 +123,7 @@
               "RelativeDocumentMoniker": "TestGeometry\\VM\\MainWindowVM.cs",
               "ToolTip": "C:\\Users\\zh.kasymov\\source\\repos\\TestGeometry\\TestGeometry\\VM\\MainWindowVM.cs",
               "RelativeToolTip": "TestGeometry\\VM\\MainWindowVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T07:41:12.437Z",
               "EditorCaption": ""

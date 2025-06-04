@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Shapes;
 
 namespace TestGeometry.Model
 {
@@ -21,6 +22,6 @@ namespace TestGeometry.Model
         /// <summary>
         /// Method for creating shape of 2D element
         /// </summary>
-        public abstract static void Create(params object[] inputs);
+        public abstract static Shape Create(params object[] inputs);
     }
 }
